@@ -12,6 +12,28 @@ This project demonstrates how data science techniques and recommendation algorit
 
 The system will process movie datasets and generate personalized movie recommendations.
 
+## Dataset Sources
+
+The project will use publicly available movie datasets such as:
+
+MovieLens Dataset
+
+Netflix Movie Ratings Dataset
+
+These datasets are available from platforms like Kaggle and academic data repositories.
+
+Example dataset features include:
+
+UserID
+
+MovieID
+
+Rating
+
+Genre
+
+Timestamp
+
 ## Documentation
 
 * [System Specification](SPECIFICATION.md)
