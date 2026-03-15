@@ -1,20 +1,19 @@
 # Movie Recommendation System Architecture
 
 ## Project Title
-
 Movie Recommendation System
 
 ## Domain
-
 Data Science and Entertainment Technology
 
 ## Problem Statement
-
-Users often struggle to find movies that match their preferences because of the large number of available movies.
+Users often struggle to find movies that match their preferences because of the large number of available movies.  
+The system analyzes user ratings, watch history, and movie genres to generate personalized movie recommendations.
 
 ## Individual Scope
-
-The system will focus on building a recommendation engine using movie datasets and generating personalized movie recommendations.
+The system will focus on building a recommendation engine using movie datasets and generating personalized recommendations.  
+It will include data processing, a recommendation engine (ML model), and a simple interface to display results.  
+External datasets from Kaggle or MovieLens will be used for training the recommendation model.  
 
 ---
 
@@ -22,34 +21,7 @@ The system will focus on building a recommendation engine using movie datasets a
 
 ```mermaid
 graph TD
-User --> MovieRecommendationSystem
-MovieRecommendationSystem --> MovieDatabase
-MovieRecommendationSystem --> RecommendationEngine
-```
-
----
-
-## C4 Level 2: Container Diagram
-
-```mermaid
-graph TD
-User --> WebApplication
-WebApplication --> BackendAPI
-BackendAPI --> RecommendationEngine
-BackendAPI --> MovieDatabase
-```
-
----
-
-## C4 Level 3: Component Diagram
-
-```mermaid
-graph TD
-RecommendationEngine --> DataPreprocessing
-RecommendationEngine --> SimilarityModel
-RecommendationEngine --> RecommendationGenerator
-
-DataPreprocessing --> Dataset
-SimilarityModel --> ProcessedData
-RecommendationGenerator --> RecommendedMovies
-```
+User["User"] --> MovieRecSys["Movie Recommendation System"]
+MovieRecSys --> MovieDB["Movie Database (internal)"]
+MovieRecSys --> RecommendationEngine["Recommendation Engine (ML Model)"]
+MovieRecSys --> ExternalData["External Datasets (Kaggle / MovieLens)"]
