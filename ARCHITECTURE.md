@@ -25,3 +25,25 @@ User["User"] --> MovieRecSys["Movie Recommendation System"]
 MovieRecSys --> MovieDB["Movie Database (internal)"]
 MovieRecSys --> RecommendationEngine["Recommendation Engine (ML Model)"]
 MovieRecSys --> ExternalData["External Datasets (Kaggle / MovieLens)"]
+
+## C4 Level 2: Container Diagram
+
+graph TD
+User --> WebApp["Web Application (UI)"]
+WebApp --> BackendAPI["Backend API"]
+BackendAPI --> RecommendationEngine["Recommendation Engine (ML Model)"]
+BackendAPI --> MovieDB["Movie Database"]
+RecommendationEngine --> ExternalData["External Datasets (Kaggle / MovieLens)"]
+
+## C4 Level 3: Component Diagram
+
+graph TD
+RecommendationEngine --> DataPreprocessing["Data Preprocessing"]
+RecommendationEngine --> SimilarityModel["Similarity / Collaborative Filtering Model"]
+RecommendationEngine --> RecommendationGenerator["Recommendation Generator"]
+
+DataPreprocessing --> RawDataset["Raw Movie Dataset"]
+DataPreprocessing --> ExternalData["External Kaggle Dataset"]
+SimilarityModel --> ProcessedData["Processed Data"]
+RecommendationGenerator --> RecommendedMovies["Recommended Movies Output"]
+
