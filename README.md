@@ -1,21 +1,37 @@
 # Movie Recommendation System
 
-## Introduction
-The Movie Recommendation System is a data science application designed to suggest movies to users based on their preferences, viewing history, and ratings.  
-The system analyzes user behavior and movie attributes to generate personalized recommendations.  
+## Project Overview
+The Movie Recommendation System is a data science application that suggests movies to users based on their preferences, ratings, and viewing history.
 
-This project demonstrates how data science and machine learning techniques can improve user experience in digital entertainment platforms.
+The system analyzes movie datasets and user behavior to generate personalized recommendations using machine learning techniques.
 
-## Project Description
-The system will analyze movie datasets such as ratings, genres, and user interactions to identify patterns in user preferences.  
-Using these insights, it generates personalized movie recommendations.  
+## Project Goals
+The goal of this project is to design and implement a recommendation system that improves the movie discovery experience for users.
 
-The project includes:
+The system will:
+- Analyze movie ratings and genres
+- Learn user preferences
+- Generate personalized movie suggestions
 
-- Data processing pipelines  
-- Recommendation algorithms (collaborative filtering / similarity models)  
-- A dashboard for users to view suggested movies  
+## Technologies
+The system will use the following technologies:
+
+- Python
+- Machine Learning (Collaborative Filtering / Similarity Models)
+- MovieLens Dataset
+- Simple Web Interface (Flask or Streamlit)
+- GitHub for version control
 
 ## Documentation
-- [System Specification](SPECIFICATION.md)  
+
+Project documentation is available below:
+
+- [System Specification](SPECIFICATION.md)
 - [System Architecture](ARCHITECTURE.md)
+
+## Expected Features
+
+- User login and profile
+- Movie rating system
+- Personalized movie recommendations
+- Movie search and filtering

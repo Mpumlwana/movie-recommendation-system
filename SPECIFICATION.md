@@ -1,63 +1,73 @@
-# Movie Recommendation System
+# Movie Recommendation System Specification
 
-## 2.2 System Specification Document
+## 1. Introduction
 
-### 2.2.1 Introduction
-
-#### Project Title
+### Project Title
 Movie Recommendation System
 
-#### Domain
-Data Science and Entertainment Technology  
-This system focuses on analyzing movie-related data and user preferences to generate personalized movie recommendations.  
-It uses data analytics and machine learning techniques to understand user behavior and suggest relevant content.
+### Domain
+Data Science and Entertainment Technology
 
-#### Problem Statement
-With the large number of movies available on streaming platforms, users often struggle to find content that matches their preferences.  
-Searching manually can be time-consuming and inefficient.  
-The Movie Recommendation System solves this problem by analyzing user ratings, viewing history, and movie genres to automatically recommend movies that match the user's interests.
+This system belongs to the entertainment technology domain where data analytics and machine learning are used to improve user experience in digital media platforms.
 
-#### Individual Scope
-The project will focus on building a data-driven recommendation system using publicly available movie datasets.  
-It will include:  
+### Problem Statement
 
-- Data collection and preprocessing  
-- Recommendation engine (machine learning model)  
-- A simple user interface to display recommended movies  
+Modern streaming platforms contain thousands of movies. Users often struggle to find movies that match their interests.
 
-The project is feasible for an individual developer; advanced large-scale infrastructure is **not required**.
+Manually searching through large movie libraries can be time-consuming and inefficient.
 
----
+The Movie Recommendation System solves this problem by analyzing user ratings, viewing history, and movie genres to automatically recommend movies that match the user's preferences.
 
-## 2.2.2 Functional Requirements
+### Individual Scope
 
-1. Users can register and log in.  
-2. Users can rate movies and view their watch history.  
-3. System can generate personalized movie recommendations based on ratings, genres, and watch history.  
-4. Recommendations are updated as users interact with the system.  
+This project focuses on designing and implementing a simplified movie recommendation platform suitable for a single developer.
+
+The system will include:
+
+- Data collection and preprocessing
+- Machine learning recommendation engine
+- Movie database
+- Simple user interface
+
+Large-scale distributed infrastructure is not required, making the project feasible for an individual developer.
 
 ---
 
-## 2.2.3 Non-Functional Requirements
+## 2. Functional Requirements
 
-1. The system must respond with recommendations within 5 seconds.  
-2. The system must handle at least 10,000 users without crashing.  
-3. Data must be stored securely and comply with privacy standards.  
-4. The system must be maintainable and modular for future improvements.
+1. Users must be able to register and log into the system.
+2. Users must be able to rate movies.
+3. Users must be able to view their watch history.
+4. The system must generate personalized movie recommendations.
+5. Recommendations must update when new ratings are added.
+6. Users must be able to search for movies.
 
 ---
 
-## 2.2.4 Datasets
+## 3. Non-Functional Requirements
 
-The system uses publicly available datasets:  
+1. The system should generate recommendations within 5 seconds.
+2. The system should support at least 10,000 users.
+3. The system should store data securely.
+4. The system should be modular and maintainable.
+5. The system should allow future improvements to recommendation algorithms.
 
-- [MovieLens Dataset](https://grouplens.org/datasets/movielens/)  
-- Netflix Movie Ratings Dataset (available on Kaggle)  
+---
 
-Example fields:  
+## 4. Datasets
 
-- `UserID`  
-- `MovieID`  
-- `Rating`  
-- `Genre`  
-- `Timestamp`
+The system will use publicly available datasets.
+
+### MovieLens Dataset
+https://grouplens.org/datasets/movielens/
+
+### Netflix Dataset
+https://www.kaggle.com
+
+Example dataset fields:
+
+- UserID
+- MovieID
+- Rating
+- Genre
+- Timestamp

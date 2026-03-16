@@ -7,22 +7,22 @@ Movie Recommendation System
 Data Science and Entertainment Technology
 
 ## Problem Statement
-Users often struggle to find movies that match their preferences because of the large number of available movies.  
-The system analyzes user ratings, watch history, and movie genres to generate personalized movie recommendations.
+Users struggle to discover movies that match their preferences because of the large number of available options.
+
+This system analyzes user ratings and movie metadata to generate personalized recommendations.
 
 ## Individual Scope
-The system will focus on building a recommendation engine using movie datasets and generating personalized recommendations.  
-It will include data processing, a recommendation engine (ML model), and a simple interface to display results.  
-External datasets from Kaggle or MovieLens will be used for training the recommendation model.
+The project implements a simplified recommendation system including data processing, machine learning model, and a basic user interface.
 
 ---
+
+# C4 Model Diagrams
 
 ## C4 Level 1: System Context Diagram
 
 ```mermaid
 graph TD
-User["User"] --> MovieRecSys["Movie Recommendation System"]
-MovieRecSys --> MovieDB["Movie Database (internal)"]
-MovieRecSys --> RecommendationEngine["Recommendation Engine (ML Model)"]
-MovieRecSys --> ExternalData["External Datasets (Kaggle / MovieLens)"]
+User["User"] --> MovieSystem["Movie Recommendation System"]
 
+MovieSystem --> Dataset["Movie Dataset (MovieLens)"]
+MovieSystem --> MovieDB["Movie Database"]
