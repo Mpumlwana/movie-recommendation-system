@@ -24,7 +24,7 @@ The project implements a simplified recommendation system including data process
 graph TD
 User[User] --> MovieSystem[Movie Recommendation System]
 
-MovieSystem --> Dataset[Movie Dataset (MovieLens)]
+MovieSystem --> Dataset[External Dataset - MovieLens]
 MovieSystem --> MovieDB[Movie Database]
 ```
 
@@ -43,7 +43,7 @@ API --> RecEngine[Recommendation Engine]
 
 API --> MovieDB[(Movie Database)]
 
-RecEngine --> Dataset[Movie Dataset]
+RecEngine --> Dataset[External Dataset - MovieLens]
 ```
 
 ---
@@ -74,23 +74,23 @@ MLModel --> Dataset[Training Dataset]
 
 The system contains the following components working together:
 
-**User Interface**
-- Allows users to search for movies and view recommendations.
+### User Interface
+Allows users to search for movies and view personalized recommendations.
 
-**Authentication Module**
-- Handles user registration and login.
+### Authentication Module
+Handles user registration and login.
 
-**Backend API**
-- Processes requests between the user interface and system components.
+### Backend API
+Processes user requests and connects the interface to the system components.
 
-**Recommendation Engine**
-- Generates personalized movie suggestions based on user ratings and preferences.
+### Recommendation Engine
+Generates personalized movie suggestions based on user ratings and preferences.
 
-**Machine Learning Model**
-- Learns patterns from movie rating datasets.
+### Machine Learning Model
+Learns patterns from movie rating datasets to improve recommendations.
 
-**Movie Database**
-- Stores movie details, ratings, and user information.
+### Movie Database
+Stores movie details, ratings, and user profiles.
 
-**Dataset Source**
-- Provides training data for the recommendation system.
+### Dataset Source
+Provides movie data used to train the recommendation system.
