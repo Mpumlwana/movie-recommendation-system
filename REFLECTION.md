@@ -1,20 +1,21 @@
-# Reflection — Movie Recommendation System
+# Reflection — Movie Recommendation System 
 
 ## Challenges Faced
 
-One of the main challenges in this project was balancing the different needs of stakeholders.  
-For example, users require fast and highly accurate movie recommendations, while system administrators are more concerned with system performance and stability. Improving recommendation accuracy often requires complex algorithms, which can impact system performance.
+One of the main challenges in this assignment was identifying and analyzing stakeholders with different needs and perspectives. Each stakeholder had unique concerns, and it was sometimes difficult to clearly define their roles, pain points, and measurable success metrics without making assumptions.
 
-Another challenge was integrating external datasets such as MovieLens and Kaggle. These datasets may have inconsistencies or missing data, which makes preprocessing and data cleaning necessary before they can be used effectively.
+Another challenge was translating stakeholder concerns into clear and specific functional requirements. It required careful thinking to ensure that each requirement directly addressed a stakeholder need while remaining realistic and testable.
 
-Additionally, defining clear and measurable requirements was challenging. It was important to avoid vague statements and instead use specific, testable requirements such as response times and system capacity.
+Defining non-functional requirements was also challenging, especially making them measurable. It was necessary to avoid vague statements and instead include specific criteria such as response times, accuracy levels, and system capacity.
 
 ## Lessons Learned
 
-This assignment helped in understanding the importance of gathering requirements from different stakeholders. Each stakeholder has unique concerns, and the system must balance all of them to be successful.
+This assignment helped me understand the importance of stakeholder analysis in system development. It showed that a successful system must consider multiple perspectives, not just the end user.
 
-It also highlighted the importance of writing clear and structured requirements. Well-defined functional and non-functional requirements make it easier to design, implement, and evaluate the system.
+Additionally, I gained a better understanding of the difference between functional and non-functional requirements and how both are essential for designing a complete system.
 
 ## Conclusion
 
-Overall, this assignment provided valuable experience in requirements engineering. It demonstrated how stakeholder needs can be translated into system requirements and how trade-offs must be managed to build an effective and scalable system.
+Overall, this assignment provided valuable experience in requirements engineering. It demonstrated how stakeholder needs can be identified, analyzed, and transformed into well-defined system requirements.
+
+This process will be useful in future stages of the project, as it creates a strong foundation for system design and implementation.
