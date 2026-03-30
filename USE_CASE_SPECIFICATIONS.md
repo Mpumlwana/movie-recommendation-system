@@ -4,7 +4,7 @@
 
 ---
 
-## UC1: Register/Login
+## Use_Case1: Register/Login
 **Actor:** User  
 **Related Requirement:** FR1  
 **Description:** Allows users to access the system  
@@ -22,7 +22,7 @@
 
 ---
 
-## UC2: Search Movies
+## Use_Case2: Search Movies
 **Actor:** User  
 **Related Requirement:** FR2  
 **Description:** Search movies by title or genre  
@@ -40,7 +40,7 @@
 
 ---
 
-## UC3: Rate Movie
+## Use_Case3: Rate Movie
 **Actor:** User  
 **Related Requirement:** FR3  
 **Description:** Rate a movie  
@@ -57,7 +57,7 @@
 
 ---
 
-## UC4: Get Recommendations
+## Use_Case4: Get Recommendations
 **Actor:** User  
 **Related Requirement:** FR4  
 **Description:** Generate personalized recommendations  
@@ -75,7 +75,7 @@
 
 ---
 
-## UC5: View Movie Details
+## Use_Case5: View Movie Details
 **Actor:** User  
 **Related Requirement:** FR6  
 **Description:** View detailed movie information  
@@ -92,7 +92,7 @@
 
 ---
 
-## UC6: Manage Users
+## Use_Case6: Manage Users
 **Actor:** Admin  
 **Related Requirement:** FR7  
 **Description:** Manage user accounts  
@@ -109,7 +109,7 @@
 
 ---
 
-## UC7: Update Movie Data
+## Use_Case7: Update Movie Data
 **Actor:** Content Manager  
 **Related Requirement:** FR8  
 **Description:** Update movie database  
@@ -126,7 +126,7 @@
 
 ---
 
-## UC8: Import Dataset
+## Use_Case8: Import Dataset
 **Actor:** Data Scientist  
 **Related Requirement:** FR12  
 **Description:** Import external datasets  
