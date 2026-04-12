@@ -1,6 +1,7 @@
 # Kanban Board — Movie Recommendation System
 
 ## Kanban Board Screenshot
+![alt text](image.png)
 
 ![Kanban Board](./Screenshot 2026-04-12 234741.png)
 
