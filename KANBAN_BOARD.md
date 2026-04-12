@@ -10,7 +10,7 @@ The Kanban board was created using the Automated Kanban template in GitHub Proje
 
 Custom columns added:
 
-* Testing → to ensure quality before completion
+* Testing → to ensure quality before completion.
 * Blocked → to track tasks that cannot proceed
 
 Tasks were added from Assignment 6 and linked as GitHub Issues. Each issue was assigned and moved across columns to simulate real Agile workflow.
