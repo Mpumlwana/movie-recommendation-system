@@ -1,4 +1,3 @@
-```markdown
 # Reflection — Assignment 8
 
 ## Challenges Faced
