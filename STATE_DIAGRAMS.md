@@ -15,7 +15,7 @@ Suspended --> LoggedOut : admin action
 
 ---
 
-## Movies can be updated or removed from the system.
+## Movie State: Movies can be updated or removed from the system.
 
 ```mermaid
 stateDiagram-v2
@@ -27,7 +27,7 @@ Available --> Removed : delete
 
 ---
 
-## Ratings are validated before being stored.
+## Rating State: Ratings are validated before being stored.
 
 ```mermaid
 stateDiagram-v2
@@ -38,7 +38,7 @@ Submitted --> Rejected : invalid
 
 ---
 
-## Recommendations are processed and shown to the user.
+## Recommendation State: Recommendations are processed and shown to the user.
 
 ```mermaid
 stateDiagram-v2
@@ -51,7 +51,7 @@ Generated --> Displayed
 
 ---
 
-## Datasets are validated before being stored.
+## Dataset State: Datasets are validated before being stored.
 
 ```mermaid
 stateDiagram-v2
@@ -63,7 +63,7 @@ Validated --> Rejected : invalid
 
 ---
 
-## Search either returns results or none.
+## Search State: Search either returns results or none.
 
 ```mermaid
 stateDiagram-v2
@@ -75,7 +75,7 @@ Searching --> NoResults : none
 
 ---
 
-## System handles load and returns to stable state.
+## System Monitoring State: System handles load and returns to stable state.
 
 ```mermaid
 stateDiagram-v2
