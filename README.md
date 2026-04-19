@@ -24,13 +24,37 @@ The system will use the following technologies:
 
 ## Documentation
 
-Project documentation is available below:
+Project documentation is organized by assignment:
 
+### Assignment 3
 - [System Specification](SPECIFICATION.md)
 - [System Architecture](ARCHITECTURE.md)
-- [State Diagrams](STATE_DIAGRAMS.md) 
-- [Activity Diagrams](ACTIVITY_DIAGRAMS.md)  
-- [Reflection](REFLECTION_A8.md)  
+
+### Assignment 4
+- [Stakeholders](STAKEHOLDERS.md)
+- [Requirements](REQUIREMENTS.md)
+
+### Assignment 5
+- [Use Case Diagram](USE_CASE_DIAGRAM.md)
+- [Use Case Specifications](USE_CASE_SPECIFICATIONS.md)
+- [Test Cases](TEST_CASES.md)
+
+### Assignment 6
+- [User Stories](USER_STORIES.md)
+- [Product Backlog](PRODUCT_BACKLOG.md)
+- [Sprint Plan](SPRINT_PLAN.md)
+
+### Assignment 7
+- [Template Analysis](template_analysis.md)
+- [Kanban Explanation](kanban_explanation.md)
+- [Kanban Board](KANBAN_BOARD.md)
+
+### Assignment 8
+- [State Diagrams](STATE_DIAGRAMS.md)
+- [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
+- [Reflection](REFLECTION_A8.md)
+
+ 
 
 ## Expected Features
 
