@@ -28,6 +28,9 @@ Project documentation is available below:
 
 - [System Specification](SPECIFICATION.md)
 - [System Architecture](ARCHITECTURE.md)
+- [State Diagrams](STATE_DIAGRAMS.md) 
+- [Activity Diagrams](ACTIVITY_DIAGRAMS.md)  
+- [Reflection](REFLECTION_A8.md)  
 
 ## Expected Features
 
