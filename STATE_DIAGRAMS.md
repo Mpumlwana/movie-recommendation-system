@@ -22,7 +22,7 @@ stateDiagram-v2
         Submitted --> Rejected : invalid
     }
 
-    state "Recommendation Request" as Recommendation {
+    state "Recommendation" as Recommendation {
         [*] --> Requested
         Requested --> Processing
         Processing --> Generated : success
@@ -50,11 +50,3 @@ stateDiagram-v2
         Overloaded --> Stable : resolved
         Stable --> Running
     }
-
-    %% These lines connect the boxes together
-    UserAccount --> Feedback : gives ratings
-    Feedback --> Recommendation : influences suggestions
-    MovieData --> Recommendation : provides movie info
-    Upload --> MovieData : adds new movies
-    Search --> Recommendation : triggers recommendation
-    Recommendation --> UserAccount : personalized results
