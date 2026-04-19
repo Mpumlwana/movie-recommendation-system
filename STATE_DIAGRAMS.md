@@ -1,5 +1,5 @@
 stateDiagram-v2
-    direction LR
+direction LR
 
     state "User Account" as UserAccount {
         [*] --> Registered
@@ -22,7 +22,7 @@ stateDiagram-v2
         Submitted --> Rejected : invalid
     }
 
-    state "Recommendation" as Recommendation {
+    state "Recommendation Request" as Recommendation {
         [*] --> Requested
         Requested --> Processing
         Processing --> Generated : success
@@ -50,3 +50,12 @@ stateDiagram-v2
         Overloaded --> Stable : resolved
         Stable --> Running
     }
+
+    %% Cross-subsystem interactions
+    UserAccount --> Feedback : gives ratings
+    Feedback --> Recommendation : influences suggestions
+    MovieData --> Recommendation : provides movie info
+    Upload --> MovieData : adds new movies
+    Search --> Recommendation : triggers recommendation
+    Recommendation --> UserAccount : personalized results
+    Health --> UserAccount : affects availability
