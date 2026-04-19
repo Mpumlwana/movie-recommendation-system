@@ -1,5 +1,5 @@
 stateDiagram-v2
-direction LR
+    direction LR
 
     state "User Account" as UserAccount {
         [*] --> Registered
@@ -51,11 +51,10 @@ direction LR
         Stable --> Running
     }
 
-    %% Cross-subsystem interactions
+    %% These lines connect the boxes together
     UserAccount --> Feedback : gives ratings
     Feedback --> Recommendation : influences suggestions
     MovieData --> Recommendation : provides movie info
     Upload --> MovieData : adds new movies
     Search --> Recommendation : triggers recommendation
     Recommendation --> UserAccount : personalized results
-    
