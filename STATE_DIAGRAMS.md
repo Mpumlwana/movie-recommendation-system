@@ -1,4 +1,5 @@
 stateDiagram-v2
+direction LR
 
     state "User Account" as UserAccount {
         [*] --> Registered
@@ -56,8 +57,5 @@ stateDiagram-v2
     MovieData --> Recommendation : provides movie info
     Upload --> MovieData : adds new movies
     Search --> Recommendation : triggers recommendation
+    Recommendation --> UserAccount : personalized results
     Health --> UserAccount : affects availability
-
-
-
-
