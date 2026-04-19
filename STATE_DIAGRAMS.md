@@ -58,4 +58,4 @@ direction LR
     Upload --> MovieData : adds new movies
     Search --> Recommendation : triggers recommendation
     Recommendation --> UserAccount : personalized results
-    Health --> UserAccount : affects availability
+    
