@@ -1,17 +1,14 @@
----
-
-```markdown
-# Activity Diagrams — Movie Recommendation System
+# State Transition Diagrams For a Movie Recommendation System
 
 ---
 
-## 1. User Login Workflow
+## 1. User Account State
 
 ```mermaid
-flowchart TD
-Start --> EnterCredentials
-EnterCredentials --> Validate
-Validate -->|Valid| LoginSuccess
-Validate -->|Invalid| Error
-LoginSuccess --> End
-Error --> End
+stateDiagram-v2
+[*] --> Registered
+Registered --> LoggedIn : login
+LoggedIn --> LoggedOut : logout
+LoggedIn --> Suspended : violation
+Suspended --> LoggedOut : admin action
+
