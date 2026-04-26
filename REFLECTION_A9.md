@@ -1,5 +1,3 @@
-
-```markdown
 # Reflection — Assignment 9
 
 ## Challenges Faced
