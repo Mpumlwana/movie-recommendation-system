@@ -2,9 +2,9 @@
 
 ## Challenges Faced
 
-One of the main challenges was identifying the correct level of abstraction for the domain model. It was important to include enough detail to represent the system accurately without overcomplicating the design.
+One of the main challenges I faced was identifying the correct level of abstraction for the domain model. It was important to include enough detail to represent the system accurately without overcomplicating the design.
 
-Another challenge was defining relationships between classes. For example, deciding how the Recommendation class interacts with Dataset and User required careful consideration to ensure logical consistency.
+Another challenge that I faced was defining relationships between classes. For example, deciding how the Recommendation class interacts with Dataset and User required careful consideration to ensure logical consistency.
 
 ## Alignment with Previous Assignments
 
