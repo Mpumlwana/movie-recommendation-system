@@ -14,6 +14,8 @@ Use cases such as "Search Movies" and "Get Recommendations" are directly support
 
 State diagrams influenced how object states were translated into class behavior.
 
+The design was also influenced by the state diagrams from Assignment 8, which helped define object behavior and transitions. Additionally, Agile user stories from Assignment 6 guided the identification of key system interactions and methods within each class.
+
 ## Trade-offs
 
 One trade-off was simplifying inheritance. Instead of creating complex inheritance hierarchies, the design uses associations to keep the model simple and understandable.
