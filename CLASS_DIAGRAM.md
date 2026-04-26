@@ -54,8 +54,11 @@ class Admin {
 
 User "1" -- "0..*" Rating : gives
 Movie "1" -- "0..*" Rating : receives
+
 User "1" -- "0..*" Recommendation : gets
-Recommendation "1" -- "1" Dataset : uses
+Recommendation "1" *-- "1" Dataset : uses
+
 User "1" -- "0..*" Search : performs
+
 Admin "1" -- "0..*" User : manages
 Admin "1" -- "0..*" Movie : manages
