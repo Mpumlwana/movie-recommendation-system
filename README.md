@@ -54,7 +54,10 @@ Project documentation is organized by assignment:
 - [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
 - [Reflection](REFLECTION_A8.md)
 
- 
+### Assignment 9
+- [Domain Model](DOMAIN_MODEL.md)
+- [Class Diagram](CLASS_DIAGRAM.md)
+- [Reflection](REFLECTION_A9.md)
 
 ## Expected Features
 
