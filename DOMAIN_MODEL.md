@@ -91,3 +91,15 @@ Methods:
 - A User receives Recommendations.
 - Recommendation uses Dataset.
 - Admin manages Users and Movies.
+
+---
+
+## Relationship Details
+
+- User (1) → Rating (0..*): A user can give many ratings.
+- Movie (1) → Rating (0..*): A movie can receive many ratings.
+- User (1) → Recommendation (0..*): A user can receive multiple recommendations.
+- Recommendation (1) → Dataset (1): Recommendations are generated from a dataset.
+- User (1) → Search (0..*): A user can perform multiple searches.
+- Admin (1) → User (0..*): Admin manages users.
+- Admin (1) → Movie (0..*): Admin manages movies.
