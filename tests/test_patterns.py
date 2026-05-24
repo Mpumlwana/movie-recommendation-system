@@ -29,4 +29,4 @@ def test_builder():
 def test_simple_factory():
     movie = MovieFactory.create_movie("action")
 
-    assert False
+    assert movie == "Action Movie Created"
