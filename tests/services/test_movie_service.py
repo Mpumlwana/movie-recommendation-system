@@ -40,7 +40,7 @@ def test_get_movie():
 
     result = service.get_movie("3")
 
-    assert result.id == "3"
+    assert result.movie_id == "3"
 
 
 def test_get_all_movies():
